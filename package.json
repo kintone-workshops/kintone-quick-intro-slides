@@ -1,14 +1,18 @@
 {
-  "name": "quick-intro-slides",
+  "name": "kintone-quick-intro-slides",
   "private": true,
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --per-slide --format pdf",
+    "pdf": "slidev export --per-slide --format pdf",
+    "png": "slidev export --per-slide --format png",
+    "md": "slidev export --per-slide --format md",
+    "format": "slidev format"
   },
   "dependencies": {
-    "@slidev/cli": "^0.42.9",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/cli": "^0.42.11",
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "^0.21.3"
   }
 }
