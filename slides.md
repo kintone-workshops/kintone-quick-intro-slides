@@ -410,3 +410,4 @@ image: ./kintone-graphics/Animal_10_flip.png
 <br><br>
 
 <img src="/kintone-graphics/KDP_Swag.png" alt="Bottles, backpacks, PopSockets, & more!" style="width: 60%;">
+
