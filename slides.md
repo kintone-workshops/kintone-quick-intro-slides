@@ -3,8 +3,8 @@ theme: /
 favicon: ./kintone-graphics/KDP_favicon.png
 layout: image
 image: ./kintone-graphics/kintone-background-v2.svg
-title: Get Started with Kintone Web Database!
-exportFilename: slides-kintone-for-hackathon
+title: Quick Introduction to Kintone Kintone Web Database
+exportFilename: kintone-quick-intro-slides
 export:
   format: pdf
   timeout: 30000
@@ -98,7 +98,7 @@ hideInToc: true
     @click="$slidev.nav.next"
     class="p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10 hover:opacity-90 opacity-60 flex justify-center items-center"
   >
-    Press Space for the next page <heroicons-solid-arrow-narrow-right />
+    Press Space for the next page <mdi-arrow-right-thin/>
   </div>
 </div>
 
@@ -385,10 +385,10 @@ title: Where to get help? <mdi-help-circle/>
 
 Here are some resources to help you use Kintone as your project's database!
 
-| <mdi-home/>          | [kintone.dev](https://kintone.dev/)                                          | Read API Docs & Tutorials |
-| ---------------------------------- | ---------------------------------------------------------------------------- | ------------------------- |
-| <mdi-lifebuoy/>      | [forum.kintone.dev](https://forum.kintone.dev/)                              | Post Questions            |
-| <mdi-youtube/> | [@KintoneDeveloperProgram](https://www.youtube.com/@KintoneDeveloperProgram) | Watch Tutorials           |
+| <mdi-home/>     | [kintone.dev](https://kintone.dev/)                                          | Read API Docs & Tutorials |
+| --------------- | ---------------------------------------------------------------------------- | ------------------------- |
+| <mdi-lifebuoy/> | [forum.kintone.dev](https://forum.kintone.dev/)                              | Post Questions            |
+| <mdi-youtube/>  | [@KintoneDeveloperProgram](https://www.youtube.com/@KintoneDeveloperProgram) | Watch Tutorials           |
 
 
 ---
