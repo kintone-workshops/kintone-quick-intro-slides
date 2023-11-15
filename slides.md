@@ -62,12 +62,12 @@ hideInToc: true
   "
 >
   <div
-    class="p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10 hover:opacity-90 opacity-60 flex justify-center items-center"
+    class="p-1 rounded cursor-pointer opacity-60 flex justify-center items-center"
     align="center"
     style="flex: 1; padding-right: 20px"
   >
     <a
-      href="https://ahandsel.github.io/kintone-quick-intro-slides/"
+      href="https://kintone-quick-intro-slides.vercel.app/"
       target="_blank"
       alt="Intro to Kintone Slides"
     >
@@ -76,15 +76,14 @@ hideInToc: true
   </div>
   <div>
     <a
-      href="https://ahandsel.github.io/kintone-quick-intro-slides/"
+      href="https://kintone-quick-intro-slides.vercel.app/"
       target="_blank"
       alt="Intro to Kintone Slides"
     >
     <QRCode
-      value="https://ahandsel.github.io/kintone-quick-intro-slides/"
+      value="https://kintone-quick-intro-slides.vercel.app/"
       width="100"
       height="100"
-      alt="QR Code for kintone-for-hackathon Slide Deck"
     />
     </a>
   </div>
@@ -97,17 +96,6 @@ hideInToc: true
     Press Space for the next page →
   </div>
 </div>
-
-
----
-layout: image-right-bar
-image: ./kintone-graphics/Animal_6_flip.png
-hideInToc: true
----
-
-## Table of Contents <mdi-table-of-contents/>
-
-<toc />
 
 
 ---
@@ -214,7 +202,7 @@ layout: image-right-bar
 image: ./kintone-graphics/Animal_6_flip.png
 ---
 
-# How to Use Kintone? 🧐
+# How to Use Kintone? <mdi-school-outline/>
 
 <br>
 
