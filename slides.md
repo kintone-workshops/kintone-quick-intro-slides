@@ -57,9 +57,9 @@ addons:
     class="text-2xl text-white text-opacity-100"
     style="font-weight: 450; line-height: 2"
   >
-    <a href="https://ahandsel.github.io/kintone-quick-intro-slides/">Slides <mdi-presentation-play/></a>
+    <a href="https://kintone-workshops.github.io/kintone-quick-intro-slides/">Slides <mdi-presentation-play/></a>
     <br>
-    <a href="https://github.com/ahandsel/kintone-quick-intro-slides ">Code <mdi-language-markdown
+    <a href="https://github.com/kintone-workshops/kintone-quick-intro-slides ">Code <mdi-language-markdown
 /></a>
   </div>
 </div>
@@ -75,12 +75,12 @@ addons:
 >
   <div>
     <a
-      href="https://ahandsel.github.io/kintone-quick-intro-slides/"
+      href="https://kintone-workshops.github.io/kintone-quick-intro-slides/"
       target="_blank"
       alt="Intro to Kintone Slides"
     >
     <QRCode
-      value="https://ahandsel.github.io/kintone-quick-intro-slides/"
+      value="https://kintone-workshops.github.io/kintone-quick-intro-slides/"
       width="100"
       height="100"
     />
