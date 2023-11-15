@@ -67,11 +67,11 @@ hideInToc: true
     style="flex: 1; padding-right: 20px"
   >
     <a
-      href="<https://ahandsel.github.io/kintone-quick-intro-slides/>"
+      href="https://ahandsel.github.io/kintone-quick-intro-slides/"
       target="_blank"
       alt="Intro to Kintone Slides"
     >
-      Slides <ri-slideshow-line/>
+      Slides <mdi-presentation-play/>
     </a>
   </div>
   <div>
@@ -80,16 +80,12 @@ hideInToc: true
       target="_blank"
       alt="Intro to Kintone Slides"
     >
-      <!-- <img
-        src="/kintone-graphics/qrcode_slidedeck.png"
-        alt="QR Code for kintone-for-hackathon Slide Deck"
-        style="
-          height: 125px;
-          display: flex;
-          margin-left: auto;
-          margin-right: auto;
-        "
-      /> -->
+    <QRCode
+      value="https://ahandsel.github.io/kintone-quick-intro-slides/"
+      width="100"
+      height="100"
+      alt="QR Code for kintone-for-hackathon Slide Deck"
+    />
     </a>
   </div>
 </div>
