@@ -33,27 +33,39 @@ fonts:
   serif: Raleway
   mono: Raleway
 hideInToc: true
+addons:
+  - "@katzumi/slidev-addon-qrcode"
 ---
 
 <div class="mb-4 top-15 left-45" style="text-align: right">
   <div class="text-7xl text-white text-opacity-100" style="font-weight: 600">
     Kintone Web Database
   </div>
-  <div><br /></div>
+  <div><br/></div>
   <div class="text-6xl text-white text-opacity-100" style="font-weight: 600">
     Your Project's Backend <mdi-database-cog/>
   </div>
-  <div><br /><br /></div>
+  <div><br/></div>
   <div
     class="text-2xl text-white text-opacity-100"
     style="font-weight: 600; line-height: 2"
   >
-    <a href="https://kintone.dev/">Kintone Developer Program</a><mdi-book/>
+    <a href="https://kintone.dev/">Kintone Developer Program<mdi-book/></a>
+  <br>
+  </div>
+  <div
+    class="text-2xl text-white text-opacity-100"
+    style="font-weight: 450; line-height: 2"
+  >
+    <a href="https://kintone-quick-intro-slides.vercel.app/">Slides <mdi-presentation-play/></a>
+    <br>
+    <a href="https://github.com/ahandsel/kintone-quick-intro-slides ">Code <mdi-language-markdown
+/></a>
   </div>
 </div>
 
 <div
-  class="absolute bottom-15 right-12"
+  class="absolute bottom-13 right-9"
   style="
     display: flex;
     justify-content: space-between;
@@ -61,19 +73,6 @@ hideInToc: true
     padding: 20px;
   "
 >
-  <div
-    class="p-1 rounded cursor-pointer opacity-60 flex justify-center items-center"
-    align="center"
-    style="flex: 1; padding-right: 20px"
-  >
-    <a
-      href="https://kintone-quick-intro-slides.vercel.app/"
-      target="_blank"
-      alt="Intro to Kintone Slides"
-    >
-      Slides <mdi-presentation-play/>
-    </a>
-  </div>
   <div>
     <a
       href="https://kintone-quick-intro-slides.vercel.app/"
