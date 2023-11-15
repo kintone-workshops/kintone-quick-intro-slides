@@ -98,7 +98,7 @@ hideInToc: true
     @click="$slidev.nav.next"
     class="p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10 hover:opacity-90 opacity-60 flex justify-center items-center"
   >
-    Press Space for the next page <mdi-arrow-right-thin/>
+    Press Space for the next page →
   </div>
 </div>
 
