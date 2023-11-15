@@ -98,6 +98,7 @@ hideInToc: true
   </div>
 </div>
 
+
 ---
 layout: image-right-bar
 image: ./kintone-graphics/Animal_6_flip.png
@@ -107,6 +108,7 @@ hideInToc: true
 ## Table of Contents <mdi-table-of-contents/>
 
 <toc />
+
 
 ---
 layout: image-right-bar
@@ -130,6 +132,7 @@ title: Overview <tabler-color-swatch/>
 
 ‣ When the fun starts
 
+
 ---
 layout: my-two-columns
 title: What is Kintone? <mdi-database-cog/>
@@ -149,6 +152,7 @@ title: What is Kintone? <mdi-database-cog/>
 ::right::
 
 ![Kintone exchanging data from a smartphone](/kintone-graphics/Fast_Database.png)
+
 
 ---
 layout: my-two-columns
@@ -187,6 +191,7 @@ equal: true
   <strong>Servers</strong> need to be <strong>constantly running</strong> &amp; maintained to be accessed
 </div>
 
+
 ---
 layout: image-right
 image: ./kintone-graphics/Build_App_Demo.gif
@@ -202,6 +207,7 @@ Databases are created with intuitive <strong>drag-&-drop</strong> GUI
 <br><br>
 <strong>No servers need</strong> to be set up by the user
 </div>
+
 
 ---
 layout: image-right-bar
@@ -221,6 +227,7 @@ image: ./kintone-graphics/Animal_6_flip.png
 <br>
 
 ## ‣ REST API <gg-database/>
+
 
 ---
 layout: my-two-columns
@@ -306,6 +313,7 @@ Users are challenged to slice their enemies as quickly as possible with a samura
 * Kintone hosts the game, scoreboard, & IoT data
 * Doll's magnetic head falls off when the user wins
 
+
 ---
 layout: image-right-bar
 image: ./kintone-graphics/Example_flowerpot-bar.gif
@@ -366,6 +374,7 @@ Fill out the Developer License Registration form for your free Kintone Subdomain
 * ⚡ Accept Cookies First
 * 🚧 Only use lowercase, numbers, and hyphens (-) for subdomain names
 * Ex: `weekend-hacker4life`
+
 
 ---
 layout: image-right-bar
