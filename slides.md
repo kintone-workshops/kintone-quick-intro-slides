@@ -34,7 +34,7 @@ fonts:
   mono: Raleway
 hideInToc: true
 addons:
-  - "@katzumi/slidev-addon-qrcode"
+  - '@katzumi/slidev-addon-qrcode'
 ---
 
 <div class="mb-4 top-15 left-45" style="text-align: right">
@@ -96,6 +96,11 @@ addons:
   </div>
 </div>
 
+<!--
+kintoneウェブデータベース  
+プロジェクトのバックエンド  
+kintone開発者プログラム  
+-->
 
 ---
 layout: image-right-bar
@@ -119,6 +124,15 @@ title: Overview <tabler-color-swatch/>
 
 ‣ When the fun starts
 
+<!--
+概要  
+①kintoneとは何ですか？  
+‣ kintoneの特徴  
+②kintoneの使い方は？  
+‣ プロジェクト例  
+③どうやって始めればいいの？  
+‣ 楽しいことが始まるとき
+-->
 
 ---
 layout: my-two-columns
@@ -140,6 +154,13 @@ title: What is Kintone? <mdi-database-cog/>
 
 ![Kintone exchanging data from a smartphone](/kintone-graphics/Fast_Database.png)
 
+<!--
+キントーンとは何ですか？
+
+kintone は、Web データベースを簡単かつ素早く構築できるローコード プラットフォームです。
+
+スマートフォンからデータをやりとりするkintone
+-->
 
 ---
 layout: my-two-columns
@@ -161,6 +182,15 @@ title: Your Project's Web Database <mdi-sitemap/>
 
 ![Kintone exchanging data from a smartphone](/kintone-graphics/Kintone_DataExchange.png)
 
+<!--
+プロジェクトの Web データベース
+
+あなたの作るアプリのデータ管理にはkintoneを使ってみてください。
+
+kintoneを使って受信データの保存や送信データの管理をしましょう！
+
+スマートフォンからデータをやりとりするkintone
+-->
 
 ---
 layout: image-right
@@ -178,6 +208,13 @@ equal: true
   <strong>Servers</strong> need to be <strong>constantly running</strong> &amp; maintained to be accessed
 </div>
 
+<!--
+従来のデータベース
+
+データベースについての高度な理解が必要
+
+サーバーにアクセスするには、サーバーを常に実行および維持する必要があります
+-->
 
 ---
 layout: image-right
@@ -195,6 +232,13 @@ Databases are created with intuitive <strong>drag-&-drop</strong> GUI
 <strong>No servers need</strong> to be set up by the user
 </div>
 
+<!--
+kintoneデータベース
+
+データベースは直感的なドラッグ＆ドロップ GUI で作成されます
+
+ユーザーがサーバーをセットアップする必要はありません
+-->
 
 ---
 layout: image-right-bar
@@ -215,6 +259,13 @@ image: ./kintone-graphics/Animal_6_flip.png
 
 ## ‣ REST API <gg-database/>
 
+<!--
+kintoneの使い方は？
+
+kintone データベースのデータにアクセスするには
+‣ ウェブブラウザ
+‣ REST API
+-->
 
 ---
 layout: my-two-columns
@@ -245,6 +296,18 @@ title: Access Kintone DBs via the Browser <gg-browser/>
 
 ![Build a Kintone App from YOUR_SUBDOMAIN.kintone.com](/kintone-graphics/Kintone_From_Browser.png)
 
+<!--
+ブラウザからkintone DBにアクセス
+
+GUI を使用して次のことを行います。
+
+データベースの作成と編集
+
+レコードの表示/追加/編集
+
+JSカスタマイズの追加
+YOUR_SUBDOMAIN.kintone.com から kintone アプリを構築する
+-->
 
 ---
 layout: image-center
@@ -256,6 +319,11 @@ image: ./kintone-graphics/Kintone_REST_API_Request.png
   <br><br>
 </div>
 
+<!--
+REST API経由でkintone DBにアクセス
+
+とはいえ、RESTAPIってなに？と思いますよね。そこでまずは普段みなさんが使っていそうなアプリを参考にRESTAPIを紹介します。皆さんYouTubeって見ますか？トップページを表示するときに動画のコンテンツがどのように表示されているかというと、DBに保存されている動画データを取得してページに表示しています。このリクエストの仕組みをRESTAPIが担っています。
+-->
 
 ---
 layout: image-center
@@ -267,6 +335,10 @@ image: ./kintone-graphics/Kintone_REST_API_Response.png
   <br><br>
 </div>
 
+<!--
+REST API経由でkintone DBにアクセス
+このリクエストとレスポンスの仕組みをRESTAPIが担っています。
+-->
 
 ---
 layout: image-center
@@ -279,9 +351,9 @@ image: ./kintone-graphics/Kintone_REST_API_Flow.png
 </div>
 
 <!--
-Let’s say you’ve made some databases in Kintone and added some data in.
-You can make REST API calls from your App pointing to your Kintone environment, the Database ID you want to access and an API token for authentication to get your results.
-You can call REST APIs from most languages, wether it be node.js, python, php, Ruby etc.
+Kintoneでいくつかのデータベースを作成し、そこにデータを追加したとします。
+アプリから REST API 呼び出しを実行して、Kintone 環境、アクセスするデータベース ID、結果を取得するための認証用の API トークンを指定できます。
+Node.js、Python、php、Ruby など、ほとんどの言語から REST API を呼び出すことができます。
 -->
 
 ---
@@ -300,6 +372,17 @@ Users are challenged to slice their enemies as quickly as possible with a samura
 * Kintone hosts the game, scoreboard, & IoT data
 * Doll's magnetic head falls off when the user wins
 
+<!--
+IoTサムライソード
+
+剣の抜き差しの速さを競うゲームです。
+このようにIOTと連携することもできます。
+
+ユーザーはサムライソードでできるだけ早く敵を斬ることに挑戦します!
+- センサーが剣の動作速度を記録
+- Kintone はゲーム、スコアボード、IoT データをホストします
+- ユーザーが勝つと人形の磁気ヘッドが落ちる
+-->
 
 ---
 layout: image-right-bar
@@ -316,11 +399,15 @@ Created by [Nobuyuki Furukawa](https://protopedia.net/prototyper/nobuyukifurukaw
 * The flowerpot moves to a sunnier place.
 
 <!--
-* Goal: Make attendees feel like super fast anime samurais
-* Sword: magnet sensors to detect in & out motion speed
-* doll with electric magnet to have its head fall off
-* 2 M5Stick microcontrollers were used for sword & doll
-* The score ranking displayed information stored in the Kintone App, where scores of participants were automatically recorded via REST API after they finished playing the game.
+緋牡丹・植木鉢プロジェクト
+お花や植物の管理ってたまに面等くさいですよね。そんな課題を解決してくれるのがこの作品です。
+ロボットは温度や湿度データを取得してkintoneに登録しています。
+登録されたデータはkintoneに登録してデータのグラフ表示も簡単です。
+
+- kintoneをバックエンドとしてセンサーデータを保存する移動式植木鉢。
+- センサーはmbedマイコンに接続されており、Node.js経由でKintoneに定期的にデータを送信します。
+- Node.jsはkintoneのセンサー値を経時的にチェックし、植木鉢のモーターを制御します。
+- 植木鉢は日当たりの良い場所に移動します。
 -->
 
 ---
@@ -340,6 +427,15 @@ Game specifications (number of aliens, aliens' health, etc.) are specified as Ki
 
 High scores can also be stored in Kintone.
 
+<!--
+スペースインベーダーズ
+
+kintoneアプリでスペースインベーダーゲームを動かしてみよう！JSのカスタマイズができるので、画面上のカスタマイズが自由にできます。
+
+ゲームの仕様（エイリアンの数やエイリアンの健康状態など）をkintoneのレコードとして指定します。
+
+ハイスコ​​アはkintoneに保存することもできます。
+-->
 
 ---
 layout: image-right
@@ -362,6 +458,18 @@ Fill out the Developer License Registration form for your free Kintone Subdomain
 * 🚧 Only use lowercase, numbers, and hyphens (-) for subdomain names
 * Ex: `weekend-hacker4life`
 
+<!--
+無料の Kintone Web データベースを入手する方法
+
+kintone.dev/new にアクセスしてください。
+
+無料の Kintone サブドメインの開発者ライセンス登録フォームに記入してください。
+
+- ✅ Chrome または Firefox を使用してください (Safari ではありません)
+- ⚡ 最初に Cookie を受け入れます
+- 🚧 サブドメイン名には小文字、数字、ハイフン (-) のみを使用してください
+- 例: 週末-hacker4life
+-->
 
 ---
 layout: image-right-bar
@@ -382,6 +490,15 @@ Here are some resources to help you use Kintone as your project's database!
 | <mdi-lifebuoy/> | [forum.kintone.dev](https://forum.kintone.dev/)                              | Post Questions            |
 | <mdi-youtube/>  | [@KintoneDeveloperProgram](https://www.youtube.com/@KintoneDeveloperProgram) | Watch Tutorials           |
 
+<!--
+どこで助けが得られますか?
+
+プロジェクトのデータベースとして kintone を使用するのに役立つリソースをいくつか紹介します。
+- kintone.dev API ドキュメントとチュートリアルを読む
+- forum.kintone.dev 質問を投稿する
+- @KintoneDeveloperProgram チュートリアルを見る
+ではみなさんのkintoneを使用した作品をお待ちしています
+-->
 
 ---
 layout: image-right-bar
@@ -397,3 +514,11 @@ image: ./kintone-graphics/Animal_10_flip.png
 <br><br>
 
 <img src="/kintone-graphics/KDP_Swag.png" alt="Bottles, backpacks, PopSockets, & more!" style="width: 60%;">
+
+<!--
+ありがとうギフト！
+
+プロジェクトでkintoneをご利用いただいたことに感謝を込めて、kintoneグッズをプレゼントいたします！
+
+ボトル、バックパック、ポップソケットなど！
+-->
